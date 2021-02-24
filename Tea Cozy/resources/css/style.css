@@ -1,0 +1,164 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h2,
+h4 {
+  margin: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+
+}
+
+.image-container img {
+  height: 200px;
+  width: 300px;
+}
+
+header {
+  top:0;
+  left:0;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  padding: 0 10px;
+  max-height: 69px;
+  opacity: 0.9;
+  z-index: 10;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+  padding-right: 10px;
+}
+
+header ul {
+  padding-right: 10px;
+}
+
+#logo {
+  justify-content: flex-start;
+  height: 50px;
+}
+
+main {
+  position: relative;
+  width: 1200px
+  margin: auto;
+  top: 69px;
+}
+
+#banner {
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  align-items: center;
+}
+
+#banner .sub {
+  background-color: black;
+  opacity: 0.9;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 50px 0;
+}
+
+#featured .intro h2,
+h4 {
+  margin-bottom: 15px;
+}
+
+.items {
+  max-width: 1000px;
+  display: inline-flex;
+  flex-direction: space-around;
+  justify-content:center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.tea {
+  margin: 10px 10px;
+}
+
+.tea h4 {
+  padding: 10px 0;
+}
+
+#find-us {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#find-us h2 {
+  align-self: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content:space-between;
+  margin: 15px 30px 50px 15px;
+  width: 1100px;
+}
+
+.cafe {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 300px;
+  margin: auto 10px;
+}
+
+.cafe h3,
+.cafe p {
+  margin: 5%;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.contact h5 {
+  align-self: center;
+}
+
+.copyright {
+  align-self: flex-start;
+  margin-left: 20px;
+}
